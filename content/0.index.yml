@@ -1,150 +1,173 @@
-title: Ship Your [SaaS]{class="text-primary"} at light speed
-description: Build production-ready SaaS applications with Nuxt UI's powerful components, authentication flows, and enterprise features. The same component library trusted by the entire Nuxt ecosystem.
+title: Telegramda [onlayn dars]{class="text-primary"} o'tish uchun CRM
+description: Onalyn darsni boshqarish uchun CRM platforma - Groop
 seo:
-  title: Nuxt UI SaaS Template
-  description: Create stunning, fast and production-ready SaaS applications with Nuxt UI. 100+ Vue components, authentication, dark mode, and enterprise features built on Tailwind CSS.
+  title: Telegramda onlayn dars uchun CRM platforma
+  description: Onlayn darsni boshqarish, telegramda onlayn dars o'tishni oson boshqaring
 navigation: false
 hero:
   links:
-    - label: Get started
+    - label: Sinab ko'rish
       icon: i-lucide-arrow-right
       trailing: true
-      to: https://ui.nuxt.com/docs/getting-started/installation/nuxt
+      to: https://my.groop.uz/register
       target: _blank
       size: xl
-    - label: Use this template
-      icon: i-simple-icons-github
-      size: xl
-      color: neutral
-      variant: subtle
-      to: https://github.com/nuxt-ui-templates/saas
-      target: _blank
 sections:
-  - title: Powered by Nuxt UI Components
-    description: Access the complete Nuxt UI component library with 100+ beautifully styled, accessible, and customizable Vue components. Everything you need to build professional SaaS applications.
+  - title: Barcha cheklar bitta joyda
+    description: O'quvchilar yopiq guruhga qo'shilish uchun cheklarni jo'natgandan keyin ularni ko'rib chiqish va tasdiqlash endi oson
     id: features
     orientation: horizontal
     features:
-      - name: 100+ UI Components
-        description: From buttons to modals, data tables to forms - all styled with Tailwind CSS and accessible out of the box.
-        icon: i-lucide-package
-      - name: Authentication Ready
-        description: Pre-built login, signup, and password reset flows. Just connect your backend and start onboarding users.
-        icon: i-lucide-shield
-      - name: TypeScript First
-        description: Full TypeScript support with auto-completion, type safety, and IntelliSense for every component and composable.
-        icon: i-lucide-code-2
-  - title: Built for Modern SaaS
-    description: Everything you need to launch and scale your SaaS. From beautiful marketing pages to complex dashboards, ship faster with production-ready patterns.
+      - name: O'quvchi telegram botga chekni jo'natadi
+        description: O'quvchi telegram botga chekni jo'natadi.
+        icon: i-lucide-receipt-text
+      - name: Admin bularni bitta joyda tasdiqlaydi
+        description: Admin cheklarni bitta joyda ko'radi va tezroq ko'rib chiqib tasdiqlaydi
+        icon: i-lucide-check-check
+      - name: Tasdiqlashi bilan o'quvchiga bot orqali bir marta ishlaydigan guruhga qo'shilish havolasi jo'natiladi
+        description: Tasdiqlashi bilan o'quvchiga bot orqali bir marta ishlaydigan guruhga qo'shilish havolasi jo'natiladi
+        icon: i-lucide-link
+      - name: Sinov darsi
+        description: Sinov darsida qatnashish imkonini ham beradi
+        icon: i-lucide-clipboard-clock
+  - title: O'z brendingiz uchun alohida telegram bot
+    description: Siz uchun alohida telegram bot yaratiladi va o'quvchilar shu bot orqali kursga yozilishadi
     orientation: horizontal
     reverse: true
     features:
-      - name: Edge Performance
-        description: Optimized for Core Web Vitals with automatic code splitting, lazy loading, and SSR/SSG support.
-        icon: i-lucide-zap
-      - name: Dark Mode Ready
-        description: Automatic theme switching with smooth transitions. Respects system preferences and remembers user choice.
-        icon: i-lucide-moon
-      - name: Global Ready
-        description: Built-in i18n support for 50+ languages with RTL/LTR layouts and @nuxt/fonts integration.
-        icon: i-lucide-globe
+      - name: BotFatherdan bot yaratasiz
+        description: BotFatherdan bot yaratasiz
+        icon: i-lucide-bot
+      - name: O'z botingizni tizimga ulaysiz
+        description: O'z botingizni tizimga ulaysiz
+        icon: i-lucide-circle-plus
+
+  - title: Barchasi avtomatlashgan
+    description: O'quvchilarni yaratishingiz shart emas. Sizning botingiz bilan ro'yxatdan o'tgan har bir o'quvchi avtomatik tizimga yoziladi
+    orientation: horizontal
+    features:
+      - name: O'quvchilarni avtomatik qo'shish
+        description: O'quvchilarni avtomatik qo'shish
+        icon: i-lucide-user-plus
+      - name: Avtomatik qarzdorlik haqida xabar jo'natish
+        description: Avtomatik qarzdorlik haqida xabar jo'natish
+        icon: i-lucide-circle-dollar-sign
+      - name: Barcha qarzodorlani bittada yopiq guruhdan chiqarish
+        description: Barcha qarzodorlani bittada yopiq guruhdan chiqarish
+        icon: i-lucide-user-x
+  - title: SMS jo'natish xizmati
+    description: SMS jo'natish oddiy telegramdan xabar jo'natishga qaraganda ancha samarali hisoblanadi
+    orientation: horizontal
+    reverse: true
+    features:
+      - name: Qarzdorlik bo'yicha SMS jo'natish
+        description: Qarzdorlik bo'yicha SMS jo'natish
+        icon: i-lucide-message-square-text
+      - name: E'lonlar haqida SMS jo'natish
+        description: E'lonlar haqida SMS jo'natish
+        icon: i-lucide-mail-warning
 features:
-  title: Everything You Need to Ship
-  description: Stop building from scratch. Focus on your unique features while Nuxt UI handles the foundations with battle-tested components and patterns.
+  title: Qo'shimcha imkoniyatlar
+  description: Cheklarni tasdiqlash, guruhni boshqarish kabi ishlarga ko'p vaqt sarlamang.
   items:
-    - title: Beautiful Design System
-      description: Semantic color aliases, comprehensive design tokens, and Tailwind Variants for consistent, customizable styling.
-      icon: i-lucide-palette
-    - title: Accessible by Default
-      description: Built on Reka UI for robust accessibility. WCAG compliant components that work for everyone, everywhere.
-      icon: i-lucide-accessibility
-    - title: Developer Experience
-      description: Auto-imports, hot module replacement, and comprehensive documentation. Build faster with less friction.
-      icon: i-lucide-terminal
-    - title: SEO Optimized
-      description: Server-side rendering, automatic meta tags, sitemap generation, and Open Graph images out of the box.
-      icon: i-lucide-search
-    - title: Production Ready
-      description: Error handling, loading states, form validation, and security best practices built into every component.
-      icon: i-lucide-check-circle
-    - title: Infinitely Customizable
-      description: Override any style with the ui prop, customize globally with AppConfig, or use Tailwind classes directly.
-      icon: i-lucide-settings
-testimonials:
-  headline: Trusted by Developers
-  title: Join Thousands Building with Nuxt UI
-  description: See why developers choose Nuxt UI to ship their SaaS applications faster and with more confidence.
-  items:
-    - quote: Nuxt UI transformed how we build. The component quality is exceptional - everything just works with perfect TypeScript support, accessibility, and dark mode built in.
-      user:
-        name: Sarah Chen
-        description: CTO at TechScale Solutions
-        avatar:
-          src: https://i.pravatar.cc/120?img=1
-    - quote: We shipped our MVP in 2 weeks instead of 2 months. The authentication flows and form components saved us countless hours of development time.
-      user:
-        name: Marcus Rodriguez
-        description: VP of Engineering at DataFlow
-        avatar:
-          src: https://i.pravatar.cc/120?img=7
-    - quote: The design system with AppConfig is brilliant. We maintain brand consistency across all our products while leveraging the full component library.
-      user:
-        name: David Kumar
-        description: Security Director at SecureStack
-        avatar:
-          src: https://i.pravatar.cc/120?img=3
-    - quote: Perfect Lighthouse scores out of the box. Our Core Web Vitals improved dramatically just by switching to Nuxt UI components.
-      user:
-        name: Emily Zhang
-        description: Lead Architect at ScaleForce
-        avatar:
-          src: https://i.pravatar.cc/120?img=5
-    - quote: The Tailwind Variants system makes customization so intuitive. We can override any component style while keeping the functionality intact.
-      user:
-        name: James Wilson
-        description: DevOps Lead at CloudPro
-        avatar:
-          src: https://i.pravatar.cc/120?img=8
-    - quote: From the SaaS template to production in days. The pre-built layouts, navigation, and content structure accelerated our launch.
-      user:
-        name: Lisa Patel
-        description: CEO at AutoScale
-        avatar:
-          src: https://i.pravatar.cc/120?img=9
-    - quote: Reka UI foundation means accessibility is never an afterthought. We achieved WCAG compliance without any custom work.
-      user:
-        name: Michael Torres
-        description: Frontend Lead at AccessFirst
-        avatar:
-          src: https://i.pravatar.cc/120?img=11
-    - quote: The documentation is outstanding. Every component has clear examples, and the community on Discord is incredibly helpful.
-      user:
-        name: Rachel Kim
-        description: Performance Engineer at APIHub
-        avatar:
-          src: https://i.pravatar.cc/120?img=10
-    - quote: We replaced three different UI libraries with Nuxt UI. The consistency and quality across all components is unmatched.
-      user:
-        name: Thomas Weber
-        description: UI Architecture Lead at DesignScale
-        avatar:
-          src: https://i.pravatar.cc/120?img=12
-    - quote: The integration with Nuxt modules is seamless. Color mode, fonts, icons - everything works together perfectly.
-      user:
-        name: Sophia Martinez
-        description: Integration Specialist at TechFlow
-        avatar:
-          src: https://i.pravatar.cc/120?img=14
+    - title: Qarzdorlarni ko'rish
+      description: Qaysi o'quvchilar to'lov qilishi kerakligini ko'rib turasiz
+      icon: i-lucide-hand-coins
+    - title: Qayta aloqa
+      description: Qiziqish bildirigan o'quvchilar bilan bittada qayta aloqaga chiqishingiz mumkin
+      icon: i-lucide-iteration-cw
+    - title: Avtomatik davomat qilish
+      description: 200 ta o'quvchilarni ham 5 daqiqada davomat qilishingiz mumkin
+      icon: i-lucide-list-todo
+    - title: Maxsus chegirma berish
+      description: O'quvchilarga alohida yoki umumiy maxsus chegirmalar berish
+      icon: i-lucide-circle-percent
+    - title: Har xil to'lov usullari
+      description: Dars boshlanish sansidan keyingi oy shu sanagacha, dars boshlanish sanasidan oy oxirigacha, darslar soniga asoslangan to'lov usullarni tanlashingiz mumkin
+      icon: i-lucide-credit-card
+    - title: Statistikalar
+      description: Har xil turdagi statistikalarni bitta joyda ko'rishingiz mumkin
+      icon: i-lucide-chart-area
+pricing:
+  title: A plan for every need
+  description: Our plans are designed to meet the requirements of both beginners and players. Get the right plan that suits you.
+  plans:
+    - title: Basic
+      description: A basic plan for individuals.
+      price:
+        month: $9.9
+        year: $99.9
+      button:
+        label: Get Started
+        color: neutral
+        variant: subtle
+      features:
+        - 1 GB Storage
+        - 1 Email Account
+        - 1 Domain
+        - 1 Website
+        - 1 Database
+        - 1 SSL Certificate
+        - 1 Support Ticket
+    - title: Standard
+      description: A standard plan for small teams.
+      price:
+        month: $19.9
+        year: $199.9
+      highlight: true
+      scale: true
+      button:
+        label: Get Started
+      features:
+        - 10 GB Storage
+        - 10 Email Accounts
+        - 10 Domains
+        - 10 Websites
+        - 10 Databases
+        - 10 SSL Certificates
+        - 10 Support Tickets
+    - title: Premium
+      description: A premium plan for large teams.
+      price:
+        month: $29.9
+        year: $299.9
+      button:
+        label: Get Started
+        color: neutral
+        variant: subtle
+      features:
+        - 100 GB Storage
+        - 100 Email Accounts
+        - 100 Domains
+        - 100 Websites
+        - 100 Databases
+        - 100 SSL Certificates
+        - 100 Support Tickets
+  logos:
+    title: Trusted by the world's best
+    icons:
+      - i-simple-icons-amazonaws
+      - i-simple-icons-heroku
+      - i-simple-icons-netlify
+      - i-simple-icons-vercel
+      - i-simple-icons-cloudflare
+  faq:
+    title: Tez so'raladigan savollar
+    description:
+    items:
+      - label: Groop nima?
+        content: Onlayn ta'limni to'liq avtomatlashtirish uchun CRM platforma
+      - label: Ishni qanday boshlayman?
+        content: Biz bilan aloqaga chiqing. O'rnatib berish va qanday foydalanishni tushuntirish tekin
+      - label: O'quvchi to'lovlarni avtomatik click va paymedan to'lasa bo'ladimi?
+        content: Hozircha yo'q. Agar siz yuridik shaxs bo'lsangiz siz uchun alohida yechim qilib berishimiz mumkin
+      - label: Qarzdor o'quvchilar avtomatik chiqarilib yuboriladimi?
+        content: Yo'q. Qarzdor o'quvchilar sizga ko'rinib turadi. Barchasini hoxlagan vaqtda bittada chiqarib yuborishingiz mumkin
 cta:
-  title: Ready to build an amazing SaaS?
-  description: Join thousands of developers building with Nuxt and Nuxt UI. Get this template and start shipping today.
+  title: Onlayn ta'limni avtomatlashtirishga tayyormisiz?
+  description: Groop bilan buni sinab ko'ring va ko'p vaqt talab qiladigan ishlarni bizga topshiring
   links:
-    - label: Start building
-      to: 'https://ui.nuxt.com/docs/getting-started/installation/nuxt'
+    - label: Sinab ko'rish
+      to: "https://my.groop.uz/register"
       target: _blank
       trailingIcon: i-lucide-arrow-right
-    - label: View on GitHub
-      to: 'https://github.com/nuxt-ui-templates/saas'
-      target: _blank
-      variant: subtle
-      icon: i-simple-icons-github
