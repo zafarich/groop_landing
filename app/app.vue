@@ -14,6 +14,17 @@ useHead({
   link: [{ rel: "icon", href: "/favicon.ico" }],
   script: [
     {
+      src: "https://www.googletagmanager.com/gtag/js?id=G-4PK1CYHVXR",
+      async: true,
+    },
+    {
+      innerHTML: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-4PK1CYHVXR');`,
+    },
+    {
       innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
