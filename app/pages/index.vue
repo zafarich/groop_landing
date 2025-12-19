@@ -140,6 +140,10 @@ const items = ref([
 
     <USeparator />
 
+    <LeadForm />
+
+    <USeparator />
+
     <UPageCTA v-bind="page.cta" variant="naked" class="overflow-hidden">
       <LazyStarsBg />
     </UPageCTA>

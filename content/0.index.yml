@@ -9,8 +9,7 @@ hero:
     - label: Sinab ko'rish
       icon: i-lucide-arrow-right
       trailing: true
-      to: https://my.groop.uz/register
-      target: _blank
+      to: "#lead-form"
       size: xl
 sections:
   - title: Barcha cheklar bitta joyda
@@ -168,6 +167,5 @@ cta:
   description: Groop bilan buni sinab ko'ring va ko'p vaqt talab qiladigan ishlarni bizga topshiring
   links:
     - label: Sinab ko'rish
-      to: "https://my.groop.uz/register"
-      target: _blank
+      to: "#lead-form"
       trailingIcon: i-lucide-arrow-right
