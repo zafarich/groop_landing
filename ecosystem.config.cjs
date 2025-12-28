@@ -2,11 +2,12 @@ module.exports = {
   apps: [
     {
       name: "groop-landing",
-      port: "4004",
-      exec_mode: "fork",
-      instances: 1,
       script: "./.output/server/index.mjs",
-      max_memory_restart: "512M",
+      instances: "max", // Yoki yadrolar soni (masalan: 2)
+      exec_mode: "cluster", // Yuklamani taqsimlash uchun
+      autorestart: true,
+      watch: false,
+      max_memory_restart: "1G",
       env: {
         NODE_ENV: "production",
         PORT: 4004,
