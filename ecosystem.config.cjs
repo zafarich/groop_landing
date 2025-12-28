@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "groop-landing",
       script: "./.output/server/index.mjs",
-      instances: "max", // Yoki yadrolar soni (masalan: 2)
+      instances: "2", // Yoki yadrolar soni (masalan: 2)
       exec_mode: "cluster", // Yuklamani taqsimlash uchun
       autorestart: true,
       watch: false,
